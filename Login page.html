@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: aqua;
+        }
+        #container1{
+            background-image: linear-gradient(70deg,#8e0e00,#1F1C18);
+            width: 80%;
+            height: 80vh;
+            position: absolute;
+            left: 120px;
+            bottom: 0px;
+        }
+        #container2{
+            background-image: linear-gradient(green,yellow);
+            width: 40%;
+            height: 50vh;
+            position: absolute;
+            left: 25vw;
+            bottom: 0px;
+        }
+        #container3{
+            background-image: linear-gradient(#BA8B02,red);
+            width: 70%;
+            height: 40vh;
+            position: absolute;
+            left: 65px;
+            bottom: 0px;
+        }
+        #gvk{
+           width: 20vw;
+           height: 30px;
+           position: absolute;
+           left: 15px;
+           margin-top: 80px;
+           text-align: center;
+           border-radius: 20px;
+           font-size: 20px;
+           color: #8e0e00;
+           box-shadow: 2px 2px 2px black;
+           background-color: transparent;
+           text-shadow: 2px 2px 2px black;
+           font-weight: bold;
+           
+           
+        }
+        .inp{
+            width: 140px;
+            height: 40px;
+            position: absolute;
+            bottom: 20px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            left:80px;
+
+        }
+        p{
+            position: absolute;
+            top: 10px;
+            left: 70px;
+            font-size: 35px;
+            color: beige;
+            font-weight: bold;
+            text-shadow: 2px 2px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <div id="container1">
+        <div id="container2">
+            <div id="container3">
+                <input placeholder="Email Id" type="email" id="gvk">
+                <br><br><br>
+                <input type="password" placeholder="Password" id="gvk">
+            
+                <input type="submit" value="Log in" class="inp">
+                <p>Login Page</p>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
